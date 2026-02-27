@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Admin Login</h2>
+
+<div id="loginBox">
+
+<input id="mobile" placeholder="Mobile"><br><br>
+<input id="pass" type="password" placeholder="Password"><br><br>
+
+<button onclick="login()">Login</button>
+
+</div>
+
+
+<div id="panel" style="display:none">
+
+<h3>Upload Photo / Video</h3>
+
+<input type="file" id="file"><br><br>
+
+<button onclick="upload()">Upload</button>
+
+</div>
+
+
+<script src="admin.js"></script>
+</body>
+</html>
